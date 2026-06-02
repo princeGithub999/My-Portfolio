@@ -779,6 +779,14 @@ const handleSubmit = async (e: React.FormEvent) => {
                   <div className="text-white font-medium">Patna, Bihar, India</div>
                 </div>
               </div>
+
+                <div className="flex items-center gap-4 rounded-2xl bg-[#111] border border-white/5 p-5">
+                <div className="w-12 h-12 rounded-xl bg-green-900/40 border border-green-700/30 flex items-center justify-center text-[#4ade80] text-lg shrink-0">📍</div>
+                <div>
+                  <div className="text-gray-400 text-sm">Phone</div>
+                  <div className="text-white font-medium">+91 9798677908</div>
+                </div>
+              </div>
             </div>
 
             <div>
@@ -825,7 +833,12 @@ function Footer() {
               </div>
               <div className="flex items-center gap-3 rounded-lg bg-[#111] border border-white/5 px-4 py-3">
                 <span className="text-[#4ade80]">📍</span>
-                <span className="text-gray-300 text-sm">San Francisco, CA</span>
+                <span className="text-gray-300 text-sm">Patna, Bihar, India</span>
+              </div>
+
+                            <div className="flex items-center gap-3 rounded-lg bg-[#111] border border-white/5 px-4 py-3">
+                <span className="text-[#4ade80]">📞</span>
+                <span className="text-gray-300 text-sm">+91 9798677908</span>
               </div>
             </div>
           </div>
