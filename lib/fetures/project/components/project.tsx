@@ -36,14 +36,14 @@ const PROJECTS: Project[] = [
   },
   {
     title: "LOOH Admin",
-    slug: "analytics-saas",
+    slug: "looh-admin",
     desc: "Real-time analytics dashboard with interactive charts, data exports, and custom reporting.",
     tag: "Apps",
     img: "/project-images/looh.png",
   },
   {
     title: "LOOH Admin Dashboard",
-    slug: "design-system",
+    slug: "looh-admin-dashboard",
     desc: "End-to-end design system with Figma tokens synced to a React component library.",
     tag: "Web Apps",
     img: "/project-images/looh.png",
@@ -93,9 +93,19 @@ export function Projects() {
           {filtered.map((p) => (
             <div
               key={p.title}
-              onClick={() =>
-               router.push(`/projects/${p.slug}`)
-              }
+              onClick={() => {
+                 if (
+                    p.slug === "looh-admin" ||
+                    p.slug === "looh-admin-dashboard"
+                  ) {
+                    alert(
+                      "🔒 Access Restricted\n\nThis project contains confidential company information. Due to company privacy and security policies, project details and source code cannot be displayed publicly."
+                    );
+                    return;
+                  }
+
+                  router.push(`/projects/${p.slug}`);
+              }}
               className="cursor-pointer group rounded-2xl bg-[#111] border border-white/5 overflow-hidden hover:border-green-700/30 transition-all"
             >
               {/* Image */}
