@@ -544,7 +544,7 @@ function Services() {
         </div>
 
         {/* Testimonials */}
-        <Testimonials />
+       
       </div>
     </section>
   );

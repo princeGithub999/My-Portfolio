@@ -41,7 +41,7 @@ const project: Project = {
   platform: "iOS & Android",
   liveUrl: "https://play.google.com/store/apps/details?id=com.smartstudy.learn",
   githubUrl: "https://github.com/yourrepo",
-  videoUrl: "/video/looh-video.mp4",
+  videoUrl: "/video/looh-video.",
   stats: [
     { label: "Downloads", value: "10K+", icon: "⬇️" },
     { label: "Rating", value: "4.8★", icon: "⭐" },
@@ -54,7 +54,7 @@ const project: Project = {
       title: "Auth & Social Login",
       desc: "Google, Apple, and email login with JWT sessions.",
       longDesc:  "Users can sign in via Google OAuth, Apple ID, or traditional email/password. JWT tokens are securely stored and auto-refreshed. Biometric login (Face ID / Fingerprint) is supported on compatible devices for quick return access.",
-      image: "/project-images/looh.png",
+      image: "/project-images/focus-vidyapeeth/focus-vidyapeeth-icon3.jpeg",
       color: "#6366f1",
     },
 
@@ -64,7 +64,7 @@ const project: Project = {
       desc: "Stripe-powered checkout with saved cards support.",
       longDesc:
         "Complete Stripe integration with support for credit/debit cards, Apple Pay, and Google Pay. Users can save multiple cards securely via Stripe vault. Refund workflows are automated and tracked in the admin dashboard.",
-      image: "/project-images/looh.png",
+      image: "/project-images/focus-vidyapeeth/focus-vidyapeeth-icon3.jpeg",
       color: "#a855f7",
     },
     {
@@ -73,7 +73,7 @@ const project: Project = {
       desc: "FCM-backed alerts for order status changes.",
       longDesc:
         "Firebase Cloud Messaging delivers real-time push alerts for every order milestone: confirmed, preparing, picked up, and delivered. Deep links route users directly to the relevant order screen on tap.",
-      image: "/project-images/looh.png",
+      image: "/project-images/focus-vidyapeeth/focus-vidyapeeth-icon3.jpeg",
       color: "#f59e0b",
     },
 
@@ -83,45 +83,90 @@ const project: Project = {
       desc: "WhatsApp message updates during hostel booking and confirmation process.",
       longDesc:
         "WhatsApp message integration is implemented during the hostel booking and confirmation process using APIs. Users receive real-time WhatsApp notifications for booking updates, payment status, booking confirmation, hostel details, check-in information, and other important updates to ensure a smooth and seamless experience.",
-      image: "/project-images/looh.png",
+      image: "/project-images/focus-vidyapeeth/focus-vidyapeeth-icon3.jpeg",
       color: "#0eae39",
     },
 
-    {
-      icon: "⭐",
-      title: "Ratings & Reviews",
-      desc: "Photo reviews with moderation and helpful votes.",
-      longDesc:
-        "After delivery, users can leave star ratings, written reviews, and photo attachments. A moderation queue flags suspicious reviews using NLP. Helpful votes surface the best reviews and penalize spam through a weighted scoring system.",
-      image: "/project-images/looh.png",
-      color: "#2c7feb",
-    },
 
-        {
-      icon: "🎁",
-      title: "Spin & Game Rewards",
-      desc: "Spin a wheel to earn rewards and discounts on hostel bookings.",
-      longDesc:
-        "The Spin feature allows users to spin a virtual wheel once a day to earn rewards such as Looh Coins, discount coupons, or free hostel stays. Users can also earn additional spins by referring friends or completing certain actions within the app. The rewards earned from the Spin can be used during hostel bookings for discounts or special offers.",
-      image: "/project-images/looh.png",
-      color: "#fb252c",
-    },
+
+    // {
+    //   icon: "🎁",
+    //   title: "Spin & Game Rewards",
+    //   desc: "Spin a wheel to earn rewards and discounts on hostel bookings.",
+    //   longDesc:
+    //     "The Spin feature allows users to spin a virtual wheel once a day to earn rewards such as Looh Coins, discount coupons, or free hostel stays. Users can also earn additional spins by referring friends or completing certain actions within the app. The rewards earned from the Spin can be used during hostel bookings for discounts or special offers.",
+    //   image: "/project-images/looh.png",
+    //   color: "#fb252c",
+    // },
+
   ],
   tech: ["Flutter","Dart", "Node.js", "Supabase",  "Firebase",],
   screenshots: [
-    "/project-images/focus-vidyapeeth/focus-vidyapeeth-icon3.jpeg",
-
-
+    "/project-images/focus-vidyapeeth/focus-1.jpeg",
+    "/project-images/focus-vidyapeeth/focus-2.jpeg",
+    "/project-images/focus-vidyapeeth/focus-3.jpeg",
+    "/project-images/focus-vidyapeeth/focus-4.jpeg",
+    "/project-images/focus-vidyapeeth/focus-5.jpeg",
+    "/project-images/focus-vidyapeeth/focus-6.jpeg",
+    "/project-images/focus-vidyapeeth/focus-7.jpeg",
+    "/project-images/focus-vidyapeeth/focus-8.jpeg",
+    "/project-images/focus-vidyapeeth/focus-9.jpeg",
+    "/project-images/focus-vidyapeeth/focus-10.jpeg",
+    "/project-images/focus-vidyapeeth/focus-11.jpeg",
+    "/project-images/focus-vidyapeeth/focus-12.jpeg",
+    "/project-images/focus-vidyapeeth/focus-13.jpeg",
+    "/project-images/focus-vidyapeeth/focus-14.jpeg",
+    "/project-images/focus-vidyapeeth/focus-15.jpeg",
+    "/project-images/focus-vidyapeeth/focus-16.jpeg",
+    "/project-images/focus-vidyapeeth/focus-17.jpeg",
+    "/project-images/focus-vidyapeeth/focus-18.jpeg",
+    "/project-images/focus-vidyapeeth/focus-19.jpeg",
+    "/project-images/focus-vidyapeeth/focus-20.jpeg",
+    "/project-images/focus-vidyapeeth/focus-21.jpeg",
+    "/project-images/focus-vidyapeeth/focus-22.jpeg",
   ],
-  appFlow: [
-    { step: "01", title: "Sign In & Sign Up", desc: "When users open the app, they first see an onboarding screen followed by mobile number login. After login, they can enter their name and referral code. Using LOOH500 gives 500 Looh Coins, and using a Captain code allows users to become a Looh Captain." },
-    { step: "02", title: "Profile", desc: "The Profile section includes many features such as Profile, Booking, Privacy, Send Feedback, Favorites, Help Center, Refer & Earn, and Looh Coin Wallet, allowing users to easily manage their account and app activities." },
-    { step: "03", title: "Hostels Booking", desc: "Users can search for hostels from anywhere in India, view hostel details, room availability, and facilities, and make bookings easily. They can also use Looh Coins to get discounts on bookings. The app provides payment options such as Pay at Hostel or Pay Online, with choices for custom payment, full payment, or ₹99 payment. If users choose full payment, they receive an additional ₹250 discount." },
-    { step: "04", title: "Emergency SOS", desc: "If a user is staying in a hostel through this application and the hostel owner has added the student as a resident in the Partner App, then in case of any emergency, the user can press the Looh SOS button. Once activated, the user's details, hostel details, a 20-second voice recording, 3 live photos, and current location are automatically shared with the hostel owner, the user's parents, and the Looh team." },
-    { step: "05", title: "Spin", desc: "Users can also earn rewards through the Spin feature and win up to 500 Looh Coins. A user can spin once at a time, and after scratching or referring a friend who downloads the app, they get another chance to spin again." },
-    { step: "06", title: "Refer & Earn", desc: "If a user refers the application to a friend and the friend downloads it, the referrer earns ₹5. If the referred user makes a hostel booking, the person who referred receives ₹200, while the user who made the booking receives ₹100 and 100 Looh Coins." },
-    { step: "07", title: "Captain", desc: "The Captain system works in a multi-level referral structure. To become a Captain, a user must first enter an existing Captain’s referral code. After becoming a Captain, if you refer User A and User A books a hostel, you earn ₹400 while User A does not receive any reward. If User A refers User B and User B makes a booking, User A earns ₹400 and you earn ₹200. Similarly, if User B refers User C and User C books a hostel, User B earns ₹400, User A earns ₹200, and you earn ₹100. This referral reward system continues for up to 3 levels only.s." },
-  ],
+appFlow: [
+  {
+    step: "01",
+    title: "Sign In & Sign Up",
+    desc: "Students can sign up and log in using their mobile number. After verification, they can create their profile by entering their name, class, and exam preference such as Class 10, Class 11, Class 12, JEE, or NEET."
+  },
+  {
+    step: "02",
+    title: "Student Profile",
+    desc: "The Profile section allows students to manage their personal information, enrolled courses, learning progress, performance reports, bookmarks, notifications, and account settings."
+  },
+  {
+    step: "03",
+    title: "Courses & Learning",
+    desc: "Students can access a wide range of courses for Class 10, Class 11, Class 12, JEE, and NEET preparation. Each course includes recorded video lectures, chapter-wise content, and structured learning materials."
+  },
+  {
+    step: "04",
+    title: "Recorded Video Classes",
+    desc: "Students can watch high-quality recorded video lectures anytime and anywhere. Videos are organized subject-wise and chapter-wise, making learning flexible and convenient."
+  },
+  {
+    step: "05",
+    title: "Online Tests",
+    desc: "Students can take chapter-wise tests, subject-wise tests, mock tests, and full-length exams. Instant results and detailed performance analysis help students understand their strengths and weaknesses."
+  },
+  {
+    step: "06",
+    title: "Practice Tests & Quizzes",
+    desc: "The app provides daily quizzes, practice questions, previous year papers, and exam-oriented assessments to help students improve their accuracy and speed."
+  },
+  {
+    step: "07",
+    title: "Progress Tracking",
+    desc: "Students can track their learning progress, completed lessons, test scores, rankings, and performance analytics through an interactive dashboard."
+  },
+  {
+    step: "08",
+    title: "Study Materials",
+    desc: "Students get access to notes, PDFs, assignments, revision materials, formula sheets, and important exam resources designed specifically for Class 10, 11, 12, JEE, and NEET preparation."
+  }
+]
 };
 
 const TECH_COLORS: Record<string, { bg: string; text: string; border: string }> = {

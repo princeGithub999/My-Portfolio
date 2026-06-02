@@ -31,30 +31,24 @@ const PROJECTS: Project[] = [
     title: "Focus Vidyapeeth",
     slug: "focus-vidyapeeth",
     desc: "Focus Vidyapeeth is an online learning app for 10th, 11th, and 12th students that provides live classes and online study batches.",
-    tag: "UI Components",
+    tag: "Apps",
     img: "/project-images/focus-vidyapeeth/focus-vidyapeeth-icon3.jpeg",
   },
   {
-    title: "Analytics SaaS",
+    title: "LOOH Admin",
     slug: "analytics-saas",
     desc: "Real-time analytics dashboard with interactive charts, data exports, and custom reporting.",
+    tag: "Apps",
+    img: "/project-images/looh.png",
+  },
+  {
+    title: "LOOH Admin Dashboard",
+    slug: "design-system",
+    desc: "End-to-end design system with Figma tokens synced to a React component library.",
     tag: "Web Apps",
     img: "/project-images/looh.png",
   },
-  {
-    title: "Design System",
-    slug: "design-system",
-    desc: "End-to-end design system with Figma tokens synced to a React component library.",
-    tag: "UI Components",
-    img: "/project-images/looh.png",
-  },
-  {
-    title: "Social Platform",
-    slug: "social-platform",
-    desc: "Full-stack social app with real-time messaging, feed algorithms, and media uploads.",
-    tag: "Full Stack",
-    img: "/project-images/looh.png",
-  },
+
 ];
 
 export function Projects() {
