@@ -16,6 +16,15 @@ const projects = [
     title: "Focus Vidyapeeth",
     slug: "focus-vidyapeeth",
   },
+  {
+    title: "LOOH Admin",
+    slug: "looh-admin",
+  },
+  {
+    title: "LOOH Admin Dashboard",
+    slug: "looh-admin-dashboard",
+  },
+  
 ];
 
 export default async function ProjectPage({
@@ -45,3 +54,7 @@ export default async function ProjectPage({
     return <FocusVidyapeeth />;
   }
 }
+
+
+
+

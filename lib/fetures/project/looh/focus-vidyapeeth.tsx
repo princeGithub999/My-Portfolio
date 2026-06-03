@@ -89,15 +89,7 @@ const project: Project = {
 
 
 
-    // {
-    //   icon: "🎁",
-    //   title: "Spin & Game Rewards",
-    //   desc: "Spin a wheel to earn rewards and discounts on hostel bookings.",
-    //   longDesc:
-    //     "The Spin feature allows users to spin a virtual wheel once a day to earn rewards such as Looh Coins, discount coupons, or free hostel stays. Users can also earn additional spins by referring friends or completing certain actions within the app. The rewards earned from the Spin can be used during hostel bookings for discounts or special offers.",
-    //   image: "/project-images/looh.png",
-    //   color: "#fb252c",
-    // },
+
 
   ],
   tech: ["Flutter","Dart", "Node.js", "Supabase",  "Firebase",],

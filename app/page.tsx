@@ -838,10 +838,10 @@ function Footer() {
 
                             <div className="flex items-center gap-3 rounded-lg bg-[#111] border border-white/5 px-4 py-3">
                 <span className="text-[#4ade80]">📞</span>
-                <span className="text-gray-300 text-sm">+91 9798677908</span>
-              </div>
+                <span className="text-gray-300 text-sm">+91 9798677908</span>,
+              </div> 
             </div>
-          </div>
+          </div> 
 
           {/* Quick Links */}
           <div>
