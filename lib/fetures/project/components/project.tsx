@@ -125,10 +125,10 @@ export function Projects() {
               </div>
 
               {/* Content */}
-              <div className="p-5">
+              {/* <div className="p-5">
                 <h3 className="text-white font-semibold">{p.title}</h3>
                 <p className="text-gray-400 text-sm mt-2">{p.desc}</p>
-              </div>
+              </div> */}
             </div>
           ))}
         </div>
