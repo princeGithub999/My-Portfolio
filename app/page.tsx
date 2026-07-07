@@ -137,6 +137,7 @@ const levelColor: Record<string, string> = {
 
 // ─── Sub-components ───────────────────────────────────────────────────────────
 function Navbar({ active }: { active: string }) {
+  
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -145,6 +146,8 @@ function Navbar({ active }: { active: string }) {
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  
 
   return (
     <nav

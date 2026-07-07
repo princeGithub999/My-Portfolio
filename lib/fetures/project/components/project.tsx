@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 
 type Project = {
   title: string;
-  slug : string;
+  slug: string;
   desc: string;
   tag: string;
   img: string;
@@ -57,7 +57,7 @@ export function Projects() {
 
   const TAGS = ["All", "Web Apps", "UI Components", "Full Stack"];
 
-  const filtered =  filter === "All" ? PROJECTS : PROJECTS.filter((p) => p.tag === filter);
+  const filtered = filter === "All" ? PROJECTS : PROJECTS.filter((p) => p.tag === filter);
 
   return (
     <section id="projects" className="py-24 bg-black">
@@ -77,11 +77,10 @@ export function Projects() {
             <button
               key={tag}
               onClick={() => setFilter(tag)}
-              className={`px-5 py-2 rounded-full text-sm border transition ${
-                filter === tag
-                  ? "bg-green-700/30 border-green-600 text-green-300"
-                  : "border-white/10 text-gray-400"
-              }`}
+              className={`px-5 py-2 rounded-full text-sm border transition ${filter === tag
+                ? "bg-green-700/30 border-green-600 text-green-300"
+                : "border-white/10 text-gray-400"
+                }`}
             >
               {tag}
             </button>
@@ -94,17 +93,17 @@ export function Projects() {
             <div
               key={p.title}
               onClick={() => {
-                 if (
-                    p.slug === "looh-admin" ||
-                    p.slug === "looh-admin-dashboard"
-                  ) {
-                    alert(
-                      "🔒 Access Restricted\n\nThis project contains confidential company information. Due to company privacy and security policies, project details and source code cannot be displayed publicly."
-                    );
-                    return;
-                  }
+                if (
+                  p.slug === "looh-admin" ||
+                  p.slug === "looh-admin-dashboard"
+                ) {
+                  alert(
+                    "🔒 Access Restricted\n\nThis project contains confidential company information. Due to company privacy and security policies, project details and source code cannot be displayed publicly."
+                  );
+                  return;
+                }
 
-                  router.push(`/projects/${p.slug}`);
+                router.push(`/projects/${p.slug}`);
               }}
               className="cursor-pointer group rounded-2xl bg-[#111] border border-white/5 overflow-hidden hover:border-green-700/30 transition-all"
             >
@@ -125,10 +124,10 @@ export function Projects() {
               </div>
 
               {/* Content */}
-              {/* <div className="p-5">
+              <div className="p-5">
                 <h3 className="text-white font-semibold">{p.title}</h3>
                 <p className="text-gray-400 text-sm mt-2">{p.desc}</p>
-              </div> */}
+              </div>
             </div>
           ))}
         </div>
